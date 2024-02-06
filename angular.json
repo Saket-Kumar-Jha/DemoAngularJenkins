@@ -31,6 +31,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/DemoJenkins/",
               "budgets": [
                 {
                   "type": "initial",
