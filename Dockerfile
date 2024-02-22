@@ -3,4 +3,5 @@ WORKDIR /app
 COPY . .
 RUN npm install
 RUN npm run build
+EXPOSE 3000  # Expose the port your app is running on
 CMD ["npm", "start"]
